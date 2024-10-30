@@ -1,0 +1,47 @@
+body {
+    font-family: "Chewy", system-ui;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .not-found-container {
+    background-color: #fdfdfd;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error-code {
+    font-size: 80px;
+    font-weight: bold;
+    color: #e74c3c; /* Color rojo para el código de error */
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #7f8c8d; /* Color gris para la descripción */
+    margin-bottom: 30px;
+  }
+  
+  .button-colorido {
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 25px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(337deg, rgba(2, 0, 36, 0.459) 0%, rgba(9, 9, 121, 0.263) 40%, rgba(0, 136, 255, 0.584) 100%);
+  }

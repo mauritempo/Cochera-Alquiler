@@ -56,7 +56,7 @@ export class DataCocherasService {
 
   asociarEstacionamientosConCocheras() {
     this.cocheras = this.cocheras.map(cochera => {
-      const estacionamiento = this.estacionamientos.find(e => e.idCochera === cochera.id)
+      const estacionamiento = this.estacionamientos.find(e => e.idCochera == cochera.id && !e.horaEgreso)
       return {...cochera, estacionamiento}
     });
     console.log(this.estacionamientos)
