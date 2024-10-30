@@ -1,0 +1,18 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Chewy&family=DynaPuff:wght@400..700&family=Monoton&display=swap');
+  </style>
+<main>
+    <form method="post" #RegisterForm="ngForm" (ngSubmit)="register(RegisterForm)">
+      <div class="username">
+  
+        <input type="text" id="username" placeholder="username" name="username" ngModel required >
+        <input type="text" id="nombre" placeholder="nombre" name="nombre" ngModel required >
+        <input type="text" id="apellido" placeholder="apellido" name="apellido" ngModel required >
+        <input type="text" id="password" placeholder="password" name="password" ngModel required >
+      </div>
+
+      <button [disabled]="RegisterForm.invalid" class="button-colorido" type="submit">Registrarse</button>
+    </form>
+    
+  
+  </main>

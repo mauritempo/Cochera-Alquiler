@@ -1,0 +1,115 @@
+h1  {
+    color: rgb(192, 173, 50);
+    text-orientation:sideways-right;
+    
+}
+
+main{
+    font-family: "Chewy", system-ui;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    
+    height: 100vh; /* Para ocupar toda la altura de la viewport */
+    background-image: linear-gradient(337deg, rgba(2, 0, 36, 0.785) 0%, rgba(9, 9, 121, 0.79) 40%, rgba(0, 136, 255, 0.584) 100%),
+    url("./../../../../public/images/car-park.jpg");
+    background-size: cover;
+}
+//linear-gradient(225deg, hsla(191, 73%, 85%, 0.5), hsla(260, 60%, 86%, 0.6), hsla(247, 100%, 85%, 0.7))
+form{
+    
+    padding:  20px;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    width: 60vh;
+    height: 65vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+
+.username input{
+    font-family: "Chewy", system-ui;
+    font-size: 25px;
+    width: 80%;
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+}
+.password input {
+    font-family: "Chewy", system-ui;
+    font-size: 25px;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+
+}
+.username{
+    margin: 30px 10px;
+    padding: 15px 32px;
+    font-size: 20px;   
+    
+}
+.password{
+    margin: 30px 10px;
+    padding: 15px 32px;
+    font-size: 20px;   
+}
+.button-colorido{
+    
+    display: flex;
+    font-size: 25px;
+    padding: 10px;    
+    margin: 8px 30px;
+    color: black;
+    text-decoration: none;
+    font-family: "Chewy", system-ui;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    background: linear-gradient(337deg, rgba(2, 0, 36, 0.459) 0%, rgba(9, 9, 121, 0.263) 40%, rgba(0, 136, 255, 0.584) 100%);
+    
+}
+
+.button-colorido:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(34, 1, 245, 0.573);
+    background-color: rgba(69, 50, 192, 0.744);
+}
+
+
+.buttonLog {
+    text-align: center;
+    
+}
+
+.button-1 {
+    font-family: "Chewy", system-ui;
+    font-size: 20px;
+    padding: 10px;    
+    margin: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(192, 173, 50, 0.494);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button-1:hover {
+
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgba(255, 221, 0, 0.624);
+    background-color: rgba(192, 173, 50, 0.494);
+}
+
+

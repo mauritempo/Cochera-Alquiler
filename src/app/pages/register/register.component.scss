@@ -1,0 +1,78 @@
+main{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    height: 100vh; /* Para ocupar toda la altura de la viewport */
+    background-image: linear-gradient(337deg, rgba(2, 0, 36, 0.785) 0%, rgba(9, 9, 121, 0.79) 40%, rgba(0, 136, 255, 0.584) 100%),
+    url("./../../../../public/images/car-park.jpg");
+    background-size: cover;
+}
+//linear-gradient(225deg, hsla(191, 73%, 85%, 0.5), hsla(260, 60%, 86%, 0.6), hsla(247, 100%, 85%, 0.7))
+form{
+    
+    padding:  40px;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.username input{
+    font-family: "Chewy", system-ui;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+}
+.password input {
+    font-family: "Chewy", system-ui;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+
+}
+.username{
+    font-family: "Chewy", system-ui;
+    margin: 30px 10px;
+    padding: 15px 32px;
+    font-size: 16px;   
+    
+}
+.password{
+    font-family: "Chewy", system-ui;
+    margin: 30px 10px;
+    padding: 15px 32px;
+    font-size: 16px;   
+}
+.button-colorido{
+    font-family: "Chewy", system-ui;
+    display: flex;
+    padding: 12px;
+    margin: 8px 35px;
+    color: black;
+    text-decoration: none;
+    
+    
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    justify-content:space-around;
+    background: linear-gradient(337deg, rgba(2, 0, 36, 0.459) 0%, rgba(9, 9, 121, 0.263) 40%, rgba(0, 136, 255, 0.584) 100%);
+    
+}
+
+button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(34, 1, 245, 0.573);
+    background-color: rgba(69, 50, 192, 0.744);
+}
+  

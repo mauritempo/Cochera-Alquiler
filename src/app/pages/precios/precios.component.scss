@@ -1,0 +1,13 @@
+@use './../../../../public/styles/tablas.scss';
+table{
+    width: 0;
+    
+    thead, tr{
+        grid-template-columns: 2fr 2fr 2fr;
+        font-family: "Chewy", system-ui;
+        
+    }
+
+
+}
+

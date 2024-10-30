@@ -1,0 +1,67 @@
+@use "./colors.scss";
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+table{
+  font-family: "Chewy", system-ui;
+  font-weight: 10;
+  margin: auto;
+  width: 85%;
+  border-collapse: collapse;
+  border-spacing: 0 10px;
+  thead, tr {
+      display: grid;
+      grid-template-columns: 50px 1fr 1fr 1fr;
+      min-width: 600px;
+      justify-items: center;
+      align-items: center;
+      height: 50px;
+      border-bottom: 1px solid colors.$color-texto;
+  }
+  thead{
+    font-weight: bold;
+  }
+  tr:hover{
+    background-color: rgba(201, 170, 255, 0.082)
+  }
+  .acciones-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    button{
+      width: 50px;
+      display: grid;
+      align-items: center;
+      border: none;
+      img{
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.disponible{
+  background-color: rgba(69, 50, 192, 0.744);
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: colors.$color-texto-invertido;
+}
+
+.deshabilitada{
+  background-color: rgba(192, 173, 50, 0.744);
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: colors.$color-texto-invertido;
+  pointer-events: none;
+}
+
+.ocupado{
+  background-color: colors.$color-warn;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: colors.$color-texto-invertido;
+  pointer-events: none;
+}

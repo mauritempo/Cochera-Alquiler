@@ -1,0 +1,26 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Chewy&family=DynaPuff:wght@400..700&family=Monoton&display=swap');
+    </style>
+<div class="fondo">
+    <header >
+
+    <div class="title"><h1>PARKING APP</h1></div>
+
+    <nav>
+        
+        <a [routerLink]="['/cochera']" routerLinkActive="link-activo">estado cochera</a>
+        @if (esAdmin) {
+            <a [routerLink]="['/reportes']" routerLinkActive="link-activo">reportes</a>
+            <a [routerLink]="['/precios']" routerLinkActive="link-activo">precios</a>
+        }
+        <div class="usuario">
+            <a>Usuario</a>
+            <div class="dropdown">
+                <button (click)="cerrarSesion()">Cerrar sesión</button>
+            </div>
+        </div>
+    </nav>
+</header>
+</div>
+
+<router-outlet />

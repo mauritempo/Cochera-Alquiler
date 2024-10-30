@@ -1,0 +1,17 @@
+ @use './../../../../public/styles/tablas.scss';
+
+h1{
+    color: red;
+}
+button{
+    cursor: pointer !important;
+}
+#agregar-cochera{
+    margin: auto;
+}
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
